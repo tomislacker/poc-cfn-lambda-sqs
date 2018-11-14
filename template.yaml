@@ -1,3 +1,4 @@
+---
 AWSTemplateFormatVersion : 2010-09-09
 Parameters:
   BucketName:
@@ -88,3 +89,5 @@ Resources:
       Runtime: nodejs8.10
       MemorySize: 512
       Timeout: 120
+
+# vim:expandtab:ft=yaml.cloudformation:sw=2:ts=2
